@@ -13,7 +13,7 @@ import com.zaxxer.hikari.HikariDataSource;
  */
 public class DBConnect {
 
-	private static final String jdbcURL = "jdbc:mysql://localhost/metroparis?serverTimezone=UTC";
+	private static final String jdbcURL = "jdbc:mariadb://localhost/metroparis?serverTimezone=UTC";
 	private static HikariDataSource ds;
 
 	public static Connection getConnection() {
